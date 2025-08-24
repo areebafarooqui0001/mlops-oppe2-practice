@@ -8,8 +8,9 @@ env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   GAR_LOCATION: us-central1
   GKE_CLUSTER: mlops-assignment-cluster
-  GKE_LOCATION: us-east1-b
+  GKE_ZONE: us-east1-b
   DEPLOYMENT_NAME: mlops-assignment-app
+  SERVICE_NAME: mlops-assignment-service
   REPOSITORY: mlops-artifacts
   IMAGE: mlops-assignment-fastapi
 
